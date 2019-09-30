@@ -1,10 +1,5 @@
 body{
-	background-color: #8C8C8C;/*rgba(151,152,154,0.3);*/
-	/*background: url("fondo.jpg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;*/ 
+	background-color: #8C8C8C;
 	font-family: verdana;
 	margin: 0;
 	padding-top: 60px;
@@ -13,8 +8,8 @@ header{
 	width: 100%;
 	background-color: #000;	
 	position: fixed;
-	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
-	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	width: 100%; 
+	left: 0; 
 	top: 0;
 }
 
@@ -90,7 +85,6 @@ header label:hover{
 }
 /**DISEÑO DEL CONTENIDO*/
 .tarjeta{
-    /*max-width: 1500px;*/
     background: #1c1c1c;
     color: #EAEDFE;
     padding:10px;
@@ -141,7 +135,6 @@ header label:hover{
     height: 60%;
     font-size: 17px;
 	text-align: center;
-	
     margin-left: 5%;
     margin: 5%;
     z-index: 95;
