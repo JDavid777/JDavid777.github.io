@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cuervos Maquiavelicos: Sitio Principal</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="resources/icon.ico">
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <header>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img class="iconoMenu" src="resources/menu.png"></label>
+        <nav class="barra">
+
+            <ul>
+                <li id="nombre">Cuervos Maquiavélicos</li>
+                <li><a href="#home">Información </a></li>
+                <li><a href="#Integrantes">Integrantes</a></li>
+                <li><a href="#formulario">Sugerencias</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="wrapper">
+        <div class="tarjeta centrado">
+            <div id="textoBienvenida">
+                <h1>Cuervos Maquiavelicos</h1>
+                <p>Sitio Oficial de la tribu</p>
+            </div>
+            <img class="imagen" src="resources/imgPrincipal.png">
+        </div>
+    </section>
+
+    <section id="Integrantes" class="wrapper">
+        <div class="tarjeta centrado">
+            <div class="titulo">
+                <h2>Integrantes</h2>
+            </div>
+
+            <div class="cajaPortada">
+                <a href="Integrantes/David/david.html">
+                    <img src="Integrantes/David/resources/cuervo.jpg">
+                    Lider David Garcia
+                </a>
+
+            </div>
+            <div class="cajaPortada">
+                <a href="">
+                    <img src="">
+                    Fernanda Jaramillo
+                </a>
+
+            </div>
+            <div class="cajaPortada">
+                <a href="">
+                    <img src="">
+                    Diana Pino
+                </a>
+
+            </div>
+
+            <div class="cajaPortada">
+                <a href="">
+                    <img src="">
+                    Camilo Meneses
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="formulario" class="wrapper">
+        <div class="tarjeta centrado">
+            <div class="titulo">
+                <h2>Sugerencias</h2>
+            </div>
+            <div>
+                <form method="post">
+                    <div>
+                        <label for="Nombre">Nombre:</label>
+                        <input type="text" id="Nombre">
+                    </div>
+                    <div>
+                        <label for="Sexo">Sexo:</label>
+                        <select id="Sexo">
+                            <option>Hombre</option>
+                            <option>Mujer</option>
+                            <option>Otro</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Correo">Correo:</label>
+                        <input type="email" id="Correo">
+                        <span class="error" aria-live="polite"></span>
+                    </div>
+                    <div>
+                        <label for="Pais">Pais:</label>
+                        <select id="Pais">
+                            <option>Colombia</option>
+                            <option>Ecuador</option>
+                            <option>Venezuela</option>
+                            <option>Perú</option>
+                            <option>España</option>
+                            <option>Brazil</option>
+                            <option>Mexico</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Ciudad">Ciudad:</label>
+                        <input type="email" id="Correo">
+                        <span class="error" aria-live="polite"></span>
+                    </div>
+
+                    <div>
+                        <label for="Mensaje">Mensaje:</label>
+                        <textarea id="Mensaje"></textarea>
+                    </div>
+                    <div class="button">
+                        <button type="submit" onclick='alert("Mensaje enviado")'>Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
