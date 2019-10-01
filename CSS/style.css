@@ -1,3 +1,6 @@
+/*@import  url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");*/
+@import url("https://fonts.googleapis.com/css?family=Lacquer&display=swap" );
+
 body{
 	background-color: #8C8C8C;
 	font-family: verdana;
@@ -45,7 +48,9 @@ header label:hover{
 #home #textoBienvenida{
 	position:absolute;
 	text-align: center;
-	font-size: 16px;
+	font-size: 28px;
+	/*font-family: 'Permanent Marker', cursive;*/
+	font-family: 'Lacquer', sans-serif;
 	top:65%;
 	left:40%;
 	right: 5%;
@@ -142,7 +147,6 @@ header label:hover{
 	text-align: center;
     margin-left: 5%;
     margin: 5%;
-    z-index: 95;
 }
 .cajaPortada img{
     width: 100%;
