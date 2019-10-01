@@ -158,6 +158,10 @@ header label:hover{
     margin: 3.5%;
     width: 25%;
     height: 26%;
+
+}
+.video iframe{
+	border:0;
 }
 
 form{
