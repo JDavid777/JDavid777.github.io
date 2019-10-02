@@ -40,9 +40,8 @@ header label:hover{
 	background-color: #1c1c1c;	
 }
 #home{
-
-	z-index: 90;
-
+	position: relative;
+	top:10px;
 }
 #home #textoBienvenida{
 	position:absolute;
@@ -52,7 +51,7 @@ header label:hover{
 	font-family: 'Lacquer', sans-serif;
 	top:50%;
 	left:50%;
-	right: 5%;
+	right: 10%;
 	bottom: 0%;
 	margin-bottom:5%;
 
@@ -314,19 +313,17 @@ h2{
 	    z-index: 95;
 	}
 	#home{
-		position:relative
+		position: relative;
+		top:-10px;
+		
 	}
 
 	#home #textoBienvenida{
-	position:absolute;
+	position:absoulte;
 	text-align: center;
 	font-size: 14px;
 	/*font-family: 'Permanent Marker', cursive;*/
 	font-family: 'Lacquer', sans-serif;
-	top:50%;
-	left:40%;
-	right: 5%;
-	bottom: 0%;
 	margin-bottom:5%;
 
 
