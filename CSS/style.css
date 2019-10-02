@@ -79,7 +79,7 @@ header label:hover{
 }
 
 #nombre{
-	margin-right: 48%;
+	margin-right: 40%;
 	padding-top: 10px;
 	color: white;
 	font-family: fantasy;
@@ -278,6 +278,11 @@ h2{
 		display: block;
 	}
 
+	#nombre{
+	position:relative;
+	left:10px;
+	}
+
 	.barra{
 		position: absolute;
 		background: #000;
@@ -321,10 +326,9 @@ h2{
 	#home #textoBienvenida{
 	position:absoulte;
 	text-align: center;
-	font-size: 14px;
+	font-size: 12px;
 	/*font-family: 'Permanent Marker', cursive;*/
 	font-family: 'Lacquer', sans-serif;
-	margin-bottom:5%;
 
 
 }
